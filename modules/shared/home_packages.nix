@@ -15,7 +15,6 @@
       fd
       ffmpeg
       fzf
-      graphviz
       imagemagick
       jq
       just
@@ -41,7 +40,6 @@
       typst
       uv
       yt-dlp
-      zola
       zoxide
     ]
     ++ lib.optionals stdenv.hostPlatform.isDarwin [
