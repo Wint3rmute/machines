@@ -27,7 +27,7 @@ _: {
       "obsidian"
       "orion"
       "signal"
-      "slack"
+      # "slack"
       "spotify"
       "telegram"
       # "tigervnc"  # Luckily I only need SSH for remote stuff
