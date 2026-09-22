@@ -2,6 +2,12 @@ rebuild := if os() == "macos" { "darwin-rebuild" } else { "nixos-rebuild" }
 
 default: fmt check flake build switch commit garbage
 
+alias f := fmt
+alias s := switch
+alias b := build
+alias c := check
+alias g := garbage
+
 fmt:
     nix fmt .
 
