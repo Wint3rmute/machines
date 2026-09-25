@@ -40,6 +40,8 @@ def git_current_branch [] {
     git rev-parse --abbrev-ref HEAD
 }
 
+alias j = just
+
 # Basic commands
 alias g = git
 alias ga = git add
