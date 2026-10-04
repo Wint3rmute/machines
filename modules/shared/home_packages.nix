@@ -47,5 +47,6 @@
     ]
     ++ lib.optionals stdenv.hostPlatform.isLinux [
       bubblewrap
+      playwright-mcp
     ];
 }
