@@ -41,12 +41,12 @@
       uv
       yt-dlp
       zoxide
+      playwright-mcp
     ]
     ++ lib.optionals stdenv.hostPlatform.isDarwin [
       container
     ]
     ++ lib.optionals stdenv.hostPlatform.isLinux [
       bubblewrap
-      playwright-mcp
     ];
 }
