@@ -26,6 +26,9 @@ _: {
       "nextcloud"
       "obsidian"
       "orion"
+      "raycast"  # App launcher 1
+      # "sol"  # App launcher 2
+      # "wox"  # App launcher 3
       "signal"
       # "slack"
       "spotify"
