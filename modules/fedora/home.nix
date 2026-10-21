@@ -1,5 +1,6 @@
 _: {
   imports = [
+    ../shared/home_packages.nix
     ../shared/helix.nix
     ../shared/nushell.nix
   ];
