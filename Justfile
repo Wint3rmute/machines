@@ -31,4 +31,4 @@ commit:
     git add -A && git commit -m flake && git push
 
 garbage:
-    sudo nix-collect-garbage -d
+    {{sudo}} nix-collect-garbage -d
