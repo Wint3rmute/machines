@@ -4,10 +4,8 @@
     with pkgs;
     [
       ansible
-      awscli2
       clang
       deadnix
-      deno
       dig
       duf
       entr
