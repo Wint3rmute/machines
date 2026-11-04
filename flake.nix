@@ -43,7 +43,11 @@
 
       homeConfigurations."wint3rmute@fedora" = home-manager.lib.homeManagerConfiguration {
         pkgs = nixpkgs.legacyPackages.x86_64-linux;
-        modules = [ ./modules/fedora/home.nix ];
+        extraSpecialArgs = { inherit inputs; };
+        modules = [
+          agenix.homeManagerModules.default
+          ./modules/fedora/home.nix
+        ];
       };
 
       nixosConfigurations."asus" = nixpkgs.lib.nixosSystem {
