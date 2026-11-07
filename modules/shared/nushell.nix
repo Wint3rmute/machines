@@ -3,6 +3,7 @@
   programs.nushell = {
     enable = true;
     extraConfig = builtins.readFile ./nushell/config.nu;
+    loadSessionVariables = true;
   };
 
   home = {
