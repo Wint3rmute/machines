@@ -31,4 +31,4 @@ commit:
     git add -A && git commit -m flake && git push
 
 garbage:
-    {{sudo}} nix-collect-garbage -d |& rg -v "deleting '/nix/store/"
+    {{sudo}} nix-collect-garbage -d 2>&1 | rg -v "deleting '/nix/store/"
