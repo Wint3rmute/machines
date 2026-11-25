@@ -16,6 +16,7 @@ _: {
     casks = [
       "audacity"
       "blender"
+      "claude"
       "discord"
       "firefox"
       "ghostty"
