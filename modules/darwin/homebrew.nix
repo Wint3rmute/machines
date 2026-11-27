@@ -21,7 +21,7 @@ _: {
       "firefox"
       "ghostty"
       "gimp"
-      # "godot"  # Not making any games right now
+      "godot"  # Not making any games right now
       "keepassxc"
       "microsoft-teams"
       "nextcloud"
