@@ -5,6 +5,7 @@
     [
       ansible
       clang
+      claude-code
       deadnix
       dig
       duf
